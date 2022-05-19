@@ -16,7 +16,7 @@ import useStore from "../store";
 import Buttons from "./Buttons";
 
 const TableComponent: FC<TableProps> = ({ activities }) => {
-  const { addActivity } =useStore()
+  const { addActivity } =useStore();
  
   return (
     
@@ -46,7 +46,7 @@ const TableComponent: FC<TableProps> = ({ activities }) => {
                   </Td>
                   <Td
                     height={[
-                      `${activity.name.length > 60 ? "100px" : "70px"}`,
+                      `${activity.name.length > 30 ? "100px" : "70px"}`,
                       "120px",
                     ]}
                     style={{

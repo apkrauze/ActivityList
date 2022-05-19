@@ -44,3 +44,9 @@
 .headerContainer :first-child{
   flex: 70%;
 }
+
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
